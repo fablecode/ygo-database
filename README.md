@@ -28,7 +28,7 @@ Here's what my command line syntax would be:
 ```powershell
   SqlPackage /Action:Publish 
    /SourceFile:"ygo.database.scripts.dacpac" 
-   /TargetDatabaseName:ygo-database 
+   /TargetDatabaseName:ygo 
    /TargetServerName:"<YourDatabaseServer>"
 ```
 
