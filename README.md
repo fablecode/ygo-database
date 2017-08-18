@@ -31,7 +31,7 @@ Here's what my command line syntax would be:
 ```
 
 ## Built With
-⋅⋅* Unordered sub-list. 
+* Unordered sub-list. 
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
