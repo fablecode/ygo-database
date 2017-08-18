@@ -9,7 +9,7 @@ A collection of definitions of objects that one could find in a SQL Server datab
 > A DAC is a self-contained unit of SQL Server database deployment that enables data-tier developers and database administrators to package SQL Server objects into a portable artifact called a DAC package, also known as a DACPAC.
 
 ## Prerequisite
-Sql Database Project should installed by default. Make sure you have [SSDT(SQL Server Data Tools)](https://www.visualstudio.com/vs/ssdt/) installed before attempting the steps below
+Sql Database Project should installed by default. Make sure you have [SSDT(SQL Server Data Tools)](https://www.visualstudio.com/vs/ssdt/) installed before attempting the steps below.
 
 ## Installing
 ```
@@ -37,4 +37,4 @@ Here's what my command line syntax would be:
 * [SSDT(SQL Server Data Tools)](https://www.visualstudio.com/vs/ssdt/)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
