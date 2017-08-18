@@ -1,6 +1,6 @@
-# ygo-database
 ![alt text](https://fablecode.visualstudio.com/_apis/public/build/definitions/085b46b6-fe2a-4297-a999-8099dd5521bb/4/badge "Visual studio team services build status") 
 
+# ygo-database
 A schema-only collection of Ygo ([Yu-Gi-Oh](http://www.yugioh-card.com/uk/)) definition of objects for SQL Server such as tables, stored procedures, views etc.
 
 ## Why?
