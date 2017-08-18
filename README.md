@@ -29,7 +29,7 @@ Here's what my command line syntax would be:
    /TargetServerName:"<YourDatabaseServer>"
 ```
 
-MIT License
+# MIT License
 
 Copyright (c) 2017 Dennis Poulton
 
