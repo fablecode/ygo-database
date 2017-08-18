@@ -12,7 +12,9 @@ A collection of definitions of objects that one could find in a SQL Server datab
 Sql Database Project should installed by default. Make sure you have [SSDT(SQL Server Data Tools)](https://www.visualstudio.com/vs/ssdt/) installed before attempting the steps below
 
 ## Installing
-> $ git clone https://github.com/fablecode/ygo-database.git
+```
+ $ git clone https://github.com/fablecode/ygo-database.git
+```
 1. Build the solution
 2. Right click the ygo.database.scripts project
 3. Click Edit
@@ -31,7 +33,8 @@ Here's what my command line syntax would be:
 ```
 
 ## Built With
-* Unordered sub-list. 
+* [Visual Studio 2017](https://www.visualstudio.com/downloads/)
+* [SSDT(SQL Server Data Tools)](https://www.visualstudio.com/vs/ssdt/)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
