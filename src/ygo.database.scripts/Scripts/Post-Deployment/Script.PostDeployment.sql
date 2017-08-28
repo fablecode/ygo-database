@@ -73,3 +73,26 @@ WHEN NOT MATCHED THEN
 	VALUES (Source.Name, Source.Description, Source.Created, Source.Updated);
 
 PRINT (N'[dbo].[Limit]: Insert Batch: 1.....Done!');
+GO
+
+MERGE dbo.AspNetRoles AS Target
+USING
+(
+	SELECT 
+		* 
+	FROM
+	(
+		VALUES
+			(1, Null, N'SuperAdmin', N'SuperAdmin'),
+			(2, Null, N'Admin', N'Admin'),
+			(3, Null, N'User', N'User')
+		
+	)As s(Id, ConcurrencyStamp, Name, NormalizedName)
+) As Source
+ON Target.Name = Source.Name
+WHEN NOT MATCHED THEN
+	INSERT (Id, ConcurrencyStamp, Name, NormalizedName)
+	VALUES (Source.Id, Source.ConcurrencyStamp, Source.Name, Source.NormalizedName);
+
+PRINT (N'[dbo].[AspNetRoles]: Insert Batch: 1.....Done!');
+
