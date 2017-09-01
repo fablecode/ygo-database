@@ -1,14 +1,14 @@
-﻿CREATE TABLE [dbo].[Card]
-(
-	[Id]		  BIGINT IDENTITY(1,1) NOT NULL,
-	[CardNumber]  NVARCHAR(50) NULL,
-	[Name]		  NVARCHAR(255) NOT NULL,
-	[Description] NVARCHAR(max) NULL,
-	[CardLevel]	  INT NULL,
-	[CardRank]    INT NULL,
-	[Atk]		  INT NULL,
-	[Def]		  INT NULL,
-	[Created]	  DATETIME2(7) NOT NULL,
-	[Updated]	  DATETIME2(7) NOT NULL,
-	CONSTRAINT [PK_Card] PRIMARY KEY CLUSTERED ([Id] ASC)
-)
+﻿CREATE TABLE [dbo].[Card] (
+    [Id]          BIGINT         IDENTITY (1, 1) NOT NULL,
+    [CardNumber]  NVARCHAR (50)  NULL,
+    [Name]        NVARCHAR (255) NOT NULL,
+    [Description] NVARCHAR (MAX) NULL,
+    [CardLevel]   INT            NULL,
+    [CardRank]    INT            NULL,
+    [Atk]         INT            NULL,
+    [Def]         INT            NULL,
+    [Created]     DATETIME2 (7)  NOT NULL,
+    [Updated]     DATETIME2 (7)  NOT NULL,
+    CONSTRAINT [PK_Card] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
