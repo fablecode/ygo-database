@@ -37,6 +37,7 @@ Here's what my command line syntax would be:
 ## Built With
 * [Visual Studio 2017](https://www.visualstudio.com/downloads/)
 * [SSDT(SQL Server Data Tools)](https://www.visualstudio.com/vs/ssdt/)
+* [Visual Studio Team Services](https://www.visualstudio.com/team-services/release-management/) for CI and deployment.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
