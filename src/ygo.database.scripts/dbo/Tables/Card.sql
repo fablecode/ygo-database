@@ -9,6 +9,7 @@
     [Def]         INT            NULL,
     [Created]     DATETIME2 (7)  NOT NULL,
     [Updated]     DATETIME2 (7)  NOT NULL,
-    CONSTRAINT [PK_Card] PRIMARY KEY CLUSTERED ([Id] ASC)
+    CONSTRAINT [PK_Card] PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [IX_Card] UNIQUE NONCLUSTERED ([Name] ASC)
 );
 
