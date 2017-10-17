@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Banlist] (
-    [Id]          BIGINT         IDENTITY (1, 1) NOT NULL,
+    [Id]          BIGINT         NOT NULL,
     [FormatId]    BIGINT         NOT NULL,
     [Name]        NVARCHAR (255) NOT NULL,
     [ReleaseDate] DATETIME       NOT NULL,

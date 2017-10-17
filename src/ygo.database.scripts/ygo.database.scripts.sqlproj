@@ -71,8 +71,6 @@
     <Build Include="dbo\Tables\ArchetypeCard.sql" />
     <Build Include="dbo\Tables\AspNetUserTokens.sql" />
     <Build Include="dbo\Tables\Attribute.sql" />
-    <Build Include="dbo\Tables\Banlist.sql" />
-    <Build Include="dbo\Tables\BanlistCard.sql" />
     <Build Include="dbo\Tables\CardAttribute.sql" />
     <Build Include="dbo\Tables\CardLinkArrow.sql" />
     <Build Include="dbo\Tables\CardRuling.sql" />
@@ -81,7 +79,6 @@
     <Build Include="dbo\Tables\CardTrivia.sql" />
     <Build Include="dbo\Tables\CardType.sql" />
     <Build Include="dbo\Tables\Category.sql" />
-    <Build Include="dbo\Tables\Format.sql" />
     <Build Include="dbo\Tables\Limit.sql" />
     <Build Include="dbo\Tables\LinkArrow.sql" />
     <Build Include="dbo\Tables\SubCategory.sql" />
@@ -93,6 +90,9 @@
     <Build Include="dbo\Tables\AspNetUserRoles.sql" />
     <Build Include="dbo\Tables\AspNetUsers.sql" />
     <Build Include="dbo\Tables\Card.sql" />
+    <Build Include="dbo\Tables\Banlist.sql" />
+    <Build Include="dbo\Tables\BanlistCard.sql" />
+    <Build Include="dbo\Tables\Format.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ygo.database.scripts.refactorlog" />
