@@ -213,9 +213,10 @@ USING
 	FROM
 	(
 		VALUES
-			('Forbidden', N'no copies are currently allowed. This status is only used in the TCG Advanced Format and in the OCG; Forbidden cards are changed to Limited in the TCG Traditional Format', GETDATE(), GETDATE()),
-			('Limited', N'only one copy is currently allowed.', GETDATE(), GETDATE()),
-			('Semi-Limited', N'up to two copies are currently allowed.', GETDATE(), GETDATE())
+			('Forbidden', N'No copies are currently allowed. This status is only used in the TCG Advanced Format and in the OCG; Forbidden cards are changed to Limited in the TCG Traditional Format', GETDATE(), GETDATE()),
+			('Limited', N'Only one copy is currently allowed.', GETDATE(), GETDATE()),
+			('Semi-Limited', N'Up to two copies are currently allowed.', GETDATE(), GETDATE()),
+			('Unlimited', N'Up to 3 copies are currently allowed.', GETDATE(), GETDATE())
 		
 	)As s(Name, Description, Created, Updated)
 ) As Source
