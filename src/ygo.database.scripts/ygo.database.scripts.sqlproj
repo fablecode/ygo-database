@@ -62,13 +62,22 @@
     <Folder Include="Scripts\Pre-Deployment" />
     <Folder Include="dbo" />
     <Folder Include="dbo\Tables" />
+    <Folder Include="dbo\Programmability" />
+    <Folder Include="dbo\Programmability\Stored Procedures" />
+    <Folder Include="dbo\Programmability\Types" />
+    <Folder Include="dbo\Programmability\Types\User-Defined Table Types" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Post-Deployment\Script.PostDeployment.sql" />
   </ItemGroup>
   <ItemGroup>
+    <Build Include="dbo\Tables\Archetype.sql" />
+    <Build Include="dbo\Tables\ArchetypeCard.sql" />
     <Build Include="dbo\Tables\AspNetUserTokens.sql" />
     <Build Include="dbo\Tables\Attribute.sql" />
+    <Build Include="dbo\Tables\Banlist.sql" />
+    <Build Include="dbo\Tables\BanlistCard.sql" />
+    <Build Include="dbo\Tables\Card.sql" />
     <Build Include="dbo\Tables\CardAttribute.sql" />
     <Build Include="dbo\Tables\CardLinkArrow.sql" />
     <Build Include="dbo\Tables\CardRuling.sql" />
@@ -77,6 +86,7 @@
     <Build Include="dbo\Tables\CardTrivia.sql" />
     <Build Include="dbo\Tables\CardType.sql" />
     <Build Include="dbo\Tables\Category.sql" />
+    <Build Include="dbo\Tables\Format.sql" />
     <Build Include="dbo\Tables\Limit.sql" />
     <Build Include="dbo\Tables\LinkArrow.sql" />
     <Build Include="dbo\Tables\SubCategory.sql" />
@@ -87,12 +97,9 @@
     <Build Include="dbo\Tables\AspNetUserLogins.sql" />
     <Build Include="dbo\Tables\AspNetUserRoles.sql" />
     <Build Include="dbo\Tables\AspNetUsers.sql" />
-    <Build Include="dbo\Tables\Card.sql" />
-    <Build Include="dbo\Tables\Banlist.sql" />
-    <Build Include="dbo\Tables\BanlistCard.sql" />
-    <Build Include="dbo\Tables\Format.sql" />
-    <Build Include="dbo\Tables\ArchetypeCard.sql" />
-    <Build Include="dbo\Tables\Archetype.sql" />
+    <Build Include="dbo\Programmability\Stored Procedures\usp_AddCardsToArchetype.sql" />
+    <Build Include="dbo\Programmability\Stored Procedures\usp_AddSupportCardsToArchetype.sql" />
+    <Build Include="dbo\Programmability\Types\User-Defined Table Types\tvp_ArchetypeCardsByCardName.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ygo.database.scripts.refactorlog" />
