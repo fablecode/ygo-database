@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Card] (
-    [Id]          BIGINT         IDENTITY (1, 1) NOT NULL,
+    [Id]          BIGINT         IDENTITY (1, 1) NOT FOR REPLICATION NOT NULL,
     [CardNumber]  NVARCHAR (50)  NULL,
     [Name]        NVARCHAR (255) NOT NULL,
     [Description] NVARCHAR (MAX) NULL,

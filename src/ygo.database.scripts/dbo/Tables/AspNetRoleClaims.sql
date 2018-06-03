@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[AspNetRoleClaims] (
-    [Id]         INT            IDENTITY (1, 1) NOT NULL,
+    [Id]         INT            IDENTITY (1, 1) NOT FOR REPLICATION NOT NULL,
     [ClaimType]  NVARCHAR (MAX) NULL,
     [ClaimValue] NVARCHAR (MAX) NULL,
     [RoleId]     NVARCHAR (450) NOT NULL,
