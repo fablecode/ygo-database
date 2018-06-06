@@ -73,10 +73,10 @@
     <PostDeploy Include="Scripts\Post-Deployment\Script.PostDeployment.sql" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\Tables\CardTip.sql" />
     <Build Include="dbo\Programmability\Types\User-Defined Table Types\tvp_ArchetypeCardsByCardName.sql" />
     <Build Include="dbo\Programmability\Stored Procedures\usp_AddCardsToArchetype.sql" />
     <Build Include="dbo\Programmability\Stored Procedures\usp_AddSupportCardsToArchetype.sql" />
+    <Build Include="dbo\Storage\Full-Text Catalogs\ftc_Archetypes.sql" />
     <Build Include="dbo\Tables\ArchetypeCard.sql" />
     <Build Include="dbo\Tables\AspNetUserTokens.sql" />
     <Build Include="dbo\Tables\Attribute.sql" />
@@ -108,7 +108,6 @@
     <Build Include="dbo\Tables\AspNetUserRoles.sql" />
     <Build Include="dbo\Tables\AspNetUsers.sql" />
     <Build Include="dbo\Tables\Archetype.sql" />
-    <Build Include="dbo\Storage\Full-Text Catalogs\ftc_Archetypes.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ygo.database.scripts.refactorlog" />
