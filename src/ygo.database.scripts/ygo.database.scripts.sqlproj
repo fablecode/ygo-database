@@ -93,13 +93,7 @@
     <Build Include="dbo\Tables\Format.sql" />
     <Build Include="dbo\Tables\Limit.sql" />
     <Build Include="dbo\Tables\LinkArrow.sql" />
-    <Build Include="dbo\Tables\Ruling_1.sql" />
-    <Build Include="dbo\Tables\RulingSection_1.sql" />
     <Build Include="dbo\Tables\SubCategory.sql" />
-    <Build Include="dbo\Tables\Tip_1.sql" />
-    <Build Include="dbo\Tables\TipSection_1.sql" />
-    <Build Include="dbo\Tables\Trivia_1.sql" />
-    <Build Include="dbo\Tables\TriviaSection_1.sql" />
     <Build Include="dbo\Tables\Type.sql" />
     <Build Include="dbo\Tables\AspNetRoleClaims.sql" />
     <Build Include="dbo\Tables\AspNetRoles.sql" />
@@ -108,6 +102,12 @@
     <Build Include="dbo\Tables\AspNetUserRoles.sql" />
     <Build Include="dbo\Tables\AspNetUsers.sql" />
     <Build Include="dbo\Tables\Archetype.sql" />
+    <Build Include="dbo\Tables\Ruling.sql" />
+    <Build Include="dbo\Tables\RulingSection.sql" />
+    <Build Include="dbo\Tables\Tip.sql" />
+    <Build Include="dbo\Tables\TipSection.sql" />
+    <Build Include="dbo\Tables\Trivia.sql" />
+    <Build Include="dbo\Tables\TriviaSection.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ygo.database.scripts.refactorlog" />
