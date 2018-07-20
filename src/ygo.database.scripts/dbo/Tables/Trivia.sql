@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Trivia] (
-    [Id]              BIGINT        IDENTITY (1, 1) NOT NULL,
+    [Id]              BIGINT        IDENTITY (1, 1) NOT FOR REPLICATION NOT NULL,
     [TriviaSectionId] BIGINT        NOT NULL,
     [Text]            VARCHAR (MAX) NOT NULL,
     [Created]         DATETIME2 (7) NOT NULL,
