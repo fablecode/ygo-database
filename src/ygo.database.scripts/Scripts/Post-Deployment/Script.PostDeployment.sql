@@ -225,7 +225,7 @@ WHEN NOT MATCHED THEN
 	INSERT (Name, Description, Created, Updated)
 	VALUES (Source.Name, Source.Description, Source.Created, Source.Updated);
 
-PRINT (N'[dbo].[Limit]: Insert Batch: 1.....Done!');
+PRINT (N'[dbo].[Limit]: Insert Batch');
 GO
 
 MERGE dbo.AspNetRoles AS Target
