@@ -1,6 +1,5 @@
 ﻿
 CREATE PROCEDURE [dbo].[usp_AddCardsToArchetype]
-	@ArchetypeId bigint,
 	@TvpArchetypeCards [dbo].[tvp_ArchetypeCardsByCardName] READONLY
 AS
 	SET NOCOUNT ON
@@ -22,12 +21,6 @@ AS
 			@TvpArchetypeCards ac
 		INNER JOIN 
 			dbo.Card c ON (ac.CardName = c.Name)
-
-		-- Clear all cards for Archetype
-		DELETE FROM 
-			dbo.ArchetypeCard
-		WHERE
-			ArchetypeId = @ArchetypeId
 
 		-- Add cards to Archetype
 		MERGE dbo.ArchetypeCard AS Target
